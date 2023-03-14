@@ -55,10 +55,13 @@ jobs:
           yarn install
 
       - name: install Cocoapod dependencies
-        run: pod install
+        run: |
+          cd packages/app-mobile/ios
+          pod install
 
       - name: build archive
         run: |
+          cd packages/app-mobile/ios
           xcodebuild -workspace Joplin.xcworkspace \
           -scheme "Joplin" \
           -sdk iphoneos \
