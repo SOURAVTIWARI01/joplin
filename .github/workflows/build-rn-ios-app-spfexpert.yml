@@ -56,7 +56,7 @@ jobs:
 
       - name: install Cocoapod dependencies
         run: pod install
-	      
+
       - name: build archive
         run: |
           xcodebuild -workspace Joplin.xcworkspace \
