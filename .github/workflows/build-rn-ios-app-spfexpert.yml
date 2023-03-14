@@ -42,7 +42,7 @@ jobs:
           mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
           cp $PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles          
 
-	  - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '18'
 
@@ -54,8 +54,8 @@ jobs:
           cd packages/app-mobile/ios
           yarn install
 
-	  - name: install Cocoapod dependencies
-	    run: pod install
+      - name: install Cocoapod dependencies
+        run: pod install
 	      
       - name: build archive
         run: |
