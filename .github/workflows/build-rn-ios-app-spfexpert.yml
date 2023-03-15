@@ -43,8 +43,8 @@ jobs:
 
           # apply provisioning profile
           mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
-          cp $PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles          
-          cp $EXT_PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles          
+          cp $PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles\b7e9e66f-a03f-48e1-b4fb-56cb2061de3a.mobileprovision
+          cp $EXT_PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles\fa6a1541-b75d-4cfd-ae55-8db5f7df0bd6.mobileprovision
 
       - uses: actions/setup-node@v3
         with:
