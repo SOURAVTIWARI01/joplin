@@ -1,4 +1,4 @@
-name: "Build React Native iOS app"
+name: "iOS Build Env Setup"
 
 on:
   # manual trigger but change to any supported event
