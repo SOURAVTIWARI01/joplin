@@ -69,6 +69,7 @@ jobs:
           xcodebuild -workspace Joplin.xcworkspace \
           -scheme "Joplin" \
           -sdk iphoneos \
+          -configuration Debug \
           -destination generic/platform=iOS \
           -archivePath $RUNNER_TEMP/joplin.xcarchive \
           archive
