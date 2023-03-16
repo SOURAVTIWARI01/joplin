@@ -94,7 +94,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: app
-          # path: ${{ runner.temp }}/build/I\ am\ Groot.ipa
+          path: ${{ runner.temp }}/build/Joplin.ipa
           # you can also archive the entire directory 
-          path: ${{ runner.temp }}/build
+          # path: ${{ runner.temp }}/build
           retention-days: 3
