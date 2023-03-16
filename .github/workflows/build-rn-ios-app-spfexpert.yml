@@ -56,13 +56,6 @@ jobs:
           node-version: '18'
           cache: 'yarn'
 
-      - uses: actions/cache@v3
-        with:
-          path: Pods
-          key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-pods-
-
       - name: Enable Corepack
         run: corepack enable
 
