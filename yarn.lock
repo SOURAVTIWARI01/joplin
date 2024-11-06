@@ -5051,7 +5051,7 @@ __metadata:
     katex: 0.13.24
     markdown-it: 13.0.1
     markdown-it-abbr: 1.0.4
-    markdown-it-anchor: 5.3.0
+    markdown-it-anchor: 9.2.0
     markdown-it-deflist: 2.1.0
     markdown-it-emoji: 2.0.2
     markdown-it-expand-tabs: 1.0.13
@@ -22011,12 +22011,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it-anchor@npm:5.3.0":
-  version: 5.3.0
-  resolution: "markdown-it-anchor@npm:5.3.0"
+"markdown-it-anchor@npm:9.2.0":
+  version: 9.2.0
+  resolution: "markdown-it-anchor@npm:9.2.0"
   peerDependencies:
+    "@types/markdown-it": "*"
     markdown-it: "*"
-  checksum: e1092fe45001ec9fb6df24afcada4f0cb774eebbe76db7c57943bcd84e0977c85764c5e6cd539617eef2a0f0c7abed59890f748b55c7379e2e4c45ff8b69f813
+  checksum: 63f9ab99332d90fc09f8cede359f4c7f1c8d9765a0cd4d006538a072a9b5c9069e4e962c246ad7bc7a87a3ebb7e655e9f22f60e696ad855bdb51b7bfbae65c33
   languageName: node
   linkType: hard
 
