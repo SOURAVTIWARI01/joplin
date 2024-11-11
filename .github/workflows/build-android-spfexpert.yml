@@ -18,7 +18,7 @@ jobs:
           fail-on-severity: low
           base-ref: dev         ##${{ github.event.pull_request.base.ref }}  # Target branch
           head-ref: dev          ##${{ github.event.pull_request.head.ref }}  # Source branch
-       ##  deny-licenses: LGPL-2.0, BSD-2-Clause
+          deny-licenses: LGPL-2.0, BSD-2-Clause
       - name: 'Report'
         # make sure this step runs even if the previous failed
         if: ${{ failure() && steps.review.conclusion == 'failure' }}
