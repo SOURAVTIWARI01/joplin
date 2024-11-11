@@ -15,7 +15,7 @@ jobs:
       ## id: review
         uses: actions/dependency-review-action@v4
         with:
-          fail-on-severity: critical
+          fail-on-severity: low
           base-ref: dev         ##${{ github.event.pull_request.base.ref }}  # Target branch
           head-ref: dev          ##${{ github.event.pull_request.head.ref }}  # Source branch
        ##  deny-licenses: LGPL-2.0, BSD-2-Clause
